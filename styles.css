@@ -12,7 +12,7 @@ body {
 
 #header-img {
    float: left;
-   padding: px 4;
+   padding: px4;
 }
 
 #nav-bar {
@@ -63,6 +63,12 @@ body {
    color: grey;
 }
 
+#home-img {
+   padding-top: 65px;
+   width: 1200px;
+   height: 800px;
+}
+
 #sec-1 {
    margin-top: 0px;
 }
@@ -90,3 +96,6 @@ body {
      background-color:pink;
    }
 }
+
+
+/* #254984 */
