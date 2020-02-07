@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+   font-family: 'Roboto Slab', serif;
     margin: 0;
 }
 
@@ -64,17 +64,20 @@ body {
 }
 
 #home-img {
-   padding-top: 65px;
-   width: 1200px;
-   height: 800px;
+   padding-top: 10px;
+   width: 1400px;
+   height: 720px;
 }
 
 #sec-1 {
    margin-top: 0px;
+   color: white;
+   z-index: 2;
 }
 
 #sec-2 {
    margin-top: 0px;
+   color: white;
 }
 
 #sec-3 {
@@ -86,7 +89,7 @@ body {
 }
 
 #sec-5 {
-   margin-top: 0px;
+   margin-top: 900px;
 }
 
 /* need to fix media querey to make sreen size for other devices */
