@@ -7,12 +7,12 @@ body {
    background: black;
    margin-top: 0px;
    position: fixed;
+   height: 75px;
    width: 100%;
 }
 
 #header-img {
    float: left;
-   padding: px4;
 }
 
 #nav-bar {
@@ -63,42 +63,28 @@ body {
    color: grey;
 }
 
+#sec-1 {
+   overflow: hidden;
+}
+
+.section {
+   border: 5px solid yellow;
+   height: 500px;
+   padding-top: 75px;
+}
+
 #home-img {
    padding-top: 10px;
    width: 1400px;
    height: 720px;
 }
 
-#sec-1 {
-   margin-top: 0px;
-   color: white;
-   z-index: 2;
+.video {
+   width: 600px;
 }
-
-#sec-2 {
-   margin-top: 0px;
-   color: white;
-}
-
-#sec-3 {
-   margin-top: 0px;
-}
-
-#sec-4 {
-   margin-top: 0px;
-}
-
-#sec-5 {
-   margin-top: 900px;
-}
-
-/* need to fix media querey to make sreen size for other devices */
 
 @media screen and (max-width: 600px) {
    body {
      background-color:pink;
    }
 }
-
-
-/* #254984 */
