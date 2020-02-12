@@ -20,35 +20,41 @@
                     <li><a class="nav-link" a href="#sec-5">Contact</a></li>
                 </ul>
             </nav>
+           
         </header>
-        <section id="sec-1">
-            <img id="home-img" src="battle.jpg" alt="home image">
-            <h2 id=>home</h2>
+        <div class="spacer"></div>
+        <section class="section" id="sec-1">
+            <div class="home-text-container">
+                <img id="home-img" src="battle.jpg" alt="home image">
+                <div class="text-block">
+                    <h2>Cyber Research Systems<br>The future of war.</h2>
+                </div>
+            </div>
         </section>
-        <section id="sec-2">
+        <section class="section" id="sec-2">
             <h2>About</h2>
             <button onclick="playPause()">Play/Pause</button>
             <br><br>
-            <video width="640" height="480" id="video">
+            <video id="video">
                 <source src="crs_video.mp4" type="video/mp4">
                 <source src="crs_video.ogg" type="video/ogg">
             </video>
         </section>
-        <section id="sec-3">
+        <section class="section" id="sec-3">
             <h2>Products</h2>
         </section>
-        <section id="sec-4">
+        <section class="section" id="sec-4">
             <h2>Pricing</h2>
         </section>
-        <section id="sec-5">
+        <section class="section" id="sec-5">
             <h2>Contact</h2>
-        </section>
-        <form id="form" action="https://www.freecodecamp.com/email-submit)">
+            <form id="form" action="https://www.freecodecamp.com/email-submit)">
             <label> for additional information please enter your email address and a representative will contact you shortly.<br>
                 <input type="email" id="email" name="email" placeholder="Enter a valid email address"><br>
                 <input type="submit" id="submit" value="Submit">
             </label>
         </form>
+        </section>
     </body>
     <script src="script.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
