@@ -69,9 +69,8 @@ body {
 }
 
 .section {
-   border: 5px solid yellow;
    height: 500px;
-   padding-top: 160px;
+   padding-top: 80px;
 }
 
 .home-text-container {
