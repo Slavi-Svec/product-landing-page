@@ -10,6 +10,7 @@ body {
    position: fixed;
    height: 75px;
    width: 100%;
+   z-index: 1;
 }
 
 #header-img {
@@ -69,8 +70,8 @@ body {
 }
 
 .section {
-   height: 500px;
-   padding-top: 80px;
+   height: 795px;
+   padding-top: 75px;
 }
 
 .home-text-container {
@@ -79,25 +80,39 @@ body {
 
 .text-block {
    position: absolute;
-   bottom: 20px;
-   right: 20px;
-   background-color: black;
+   top: 100px;
+   right: 40px;
    color: white;
-   padding-left: 20px;
-   padding-right: 20px;
 }
 
 #home-img {
-width: 100%;
-height: auto;
+   height: 795px;
+   width: 100%;
 }
 
 #video {
    width: 600px;
 }
 
+.product {
+   height: 350px;
+   width: 33%;
+}
+
+.product-container {
+   display: flex;
+}
+
+
+
 @media screen and (max-width: 600px) {
-   body {
-     background-color:pink;
+   .product-container {
+      display: flex;
+      flex-direction: column;
+
+   }
+   .product {
+      height: 350px;
+      width: 100%;
    }
 }
