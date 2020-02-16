@@ -96,23 +96,27 @@ body {
 
 .product {
    height: 350px;
-   width: 33%;
+   width: 32%;
+}
+
+.product:last-child {
+   padding: 0;
 }
 
 .product-container {
    display: flex;
+   justify-content: space-around;
 }
-
-
 
 @media screen and (max-width: 600px) {
    .product-container {
-      display: flex;
       flex-direction: column;
 
    }
+
    .product {
       height: 350px;
+      padding: 0;
       width: 100%;
    }
 }
