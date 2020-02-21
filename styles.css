@@ -97,20 +97,21 @@ body {
 
 .text-block-about {
    text-align: center;
+   margin-top: 60px;
 }
 
 #video {
-   width: 700px;
+ 
 }
 
 #button-1 {
    align-content: center;
-   position: absolute;
+   margin-top: 80px;
 }
 
 .text-block-products {
    text-align: center;
-   
+
 }
 
 .product {
