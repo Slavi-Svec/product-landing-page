@@ -72,7 +72,6 @@ body {
 }
 
 .section {
-   height: 795px;
    padding-top: 75px;
 }
 
@@ -95,12 +94,22 @@ body {
    height: 693px;
    width: 100%;
 }
+/* fix below code to center text correctly */
+.title {
+   position: absolute;
+   top: 30%;
+   left: 46%;
+   margin: 0;
+}
 
-.text-block-about {
-   text-align: center;
-   border: solid 2px;
-   margin-right: auto;
-   margin-left: auto;
+.title-block {
+   border: solid 2px black;
+   justify-content: center;
+   height: 70px;
+   overflow: hidden;
+   position: relative;
+   color: white;
+   font-size: 18px;
 }
 
 #video {
@@ -117,15 +126,6 @@ body {
    display: block;
    margin-left: auto;
    margin-right: auto;
-
-}
-
-.text-block-products {
-   text-align: center;
-   border: solid 2px;
-   margin-right: auto;
-   margin-left: auto;
-
 }
 
 .product {
@@ -151,6 +151,10 @@ body {
    width: 50%;
    margin:10px;
 
+}
+
+.title-image {
+   width: 100%;
 }
 
 .spec-image {
