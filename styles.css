@@ -81,8 +81,7 @@ body {
    border: 2px solid blue;
    display: flex;
    flex-direction: column;
-
-
+   text-align: center;
 }
 
 #home-img {
@@ -91,11 +90,12 @@ body {
 }
 
 .text-block {
-   /* position: relative; */
-    text-align: center;
+   text-align: center;
    /* color: #d3d2ca; */
    font-size: 32px;
    font-family: serif;
+   position: absolute;
+   margin-top: 5%;
 
 }
 
@@ -108,13 +108,12 @@ body {
 }
 
 .title-block {
-   border: solid 2px black; 
    justify-content: center;
    height: 70px;
    overflow: hidden;
    position: relative;
    color: black;
-   font-size: 18px; */
+   font-size: 18px;
 
 }
 
@@ -174,13 +173,14 @@ body {
 }
 
 #sec-4 {
-   margin-top: 10px;
+   margin-top: 500px;
 }
 
 .text-block-contact {
    text-align: center;
 }
 
+/* TODO Fix MEDIA Query */
 
 /* @media screen and (max-width: 600px) {
    .spec-wrapper {
