@@ -12,7 +12,6 @@ body {
    height: 75px;
    width: 100%;
    z-index: 1;
-   box-shadow: 2px 2px 1px 2px;
 }
 
 #header-img {
@@ -76,17 +75,8 @@ body {
    padding-top: 75px;
 }
 
-.home-text-container {
-   font-family: Arial;
-   border: 2px solid blue;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-}
-
 #home-img {
-   max-width: 100%;
-   max-height: 100%;
+   width: 100%;
 }
 
 .text-block {
@@ -95,8 +85,9 @@ body {
    font-size: 32px;
    font-family: serif;
    position: absolute;
-   margin-top: 5%;
-
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 /* fix below code to center text correctly */
@@ -173,7 +164,7 @@ body {
 }
 
 #sec-4 {
-   margin-top: 500px;
+   margin-bottom: 500px;
 }
 
 .text-block-contact {
