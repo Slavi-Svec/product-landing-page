@@ -16,12 +16,13 @@ body {
 }
 
 #header-img {
-   margin-left: 20px;
+   /* margin-left: 20px; */
 }
 
 #nav-bar {
    display: flex;
    align-items: center;
+   border: 2px solid red;
 }
 
 #nav-bar .nav-list {
@@ -53,7 +54,7 @@ body {
    height: 4px;
    width: 100%;
    background-color: rgb(133, 140, 156);
-   position: absolute;
+   /* position: absolute; */
    top: 0;
    width: 0%;
    transition: all ease-in-out 100ms;
@@ -77,23 +78,27 @@ body {
 
 .home-text-container {
    font-family: Arial;
-}
+   border: 2px solid blue;
+   display: flex;
+   flex-direction: column;
 
-.text-block {
-   display: block;
-   position: absolute;
-   text-align: center;
-   top: 220px;
-   left: 450PX;
-   color: #d3d2ca;
-   font-size: 32px;
-   font-family: serif;
+
 }
 
 #home-img {
-   height: 693px;
-   width: 100%;
+   max-width: 100%;
+   max-height: 100%;
 }
+
+.text-block {
+   /* position: relative; */
+    text-align: center;
+   /* color: #d3d2ca; */
+   font-size: 32px;
+   font-family: serif;
+
+}
+
 /* fix below code to center text correctly */
 .title {
    position: absolute;
@@ -103,18 +108,19 @@ body {
 }
 
 .title-block {
-   border: solid 2px black;
+   border: solid 2px black; 
    justify-content: center;
    height: 70px;
    overflow: hidden;
    position: relative;
-   color: white;
-   font-size: 18px;
+   color: black;
+   font-size: 18px; */
+
 }
 
 #video {
    margin-top: 60px;
-   width: 800px;
+   width: 70%;
    display: block;
    margin-left: auto;
    margin-right: auto;
