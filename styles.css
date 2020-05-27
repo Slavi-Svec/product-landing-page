@@ -1,7 +1,8 @@
 body {
    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin: 0;
-    background-color:  #d3d2ca;
+    background-color: white;
+        /* /* background-color:  #d3d2ca; */
 }
 
 #header {
@@ -9,18 +10,20 @@ body {
    display: flex;
    justify-content: space-between;
    position: fixed;
-   height: 75px;
+   max-height: 44px;
    width: 100%;
    z-index: 1;
 }
 
+/* TODO make apple logo part of the nav bar.  */
 #header-img {
-   /* margin-left: 20px; */
+   margin-left: 200px;
+   width: 15px;
+   height: 18px;
 }
 
 #nav-bar {
    display: flex;
-   align-items: center;
    border: 2px solid red;
 }
 
@@ -36,7 +39,7 @@ body {
    color: white;
    text-decoration: none;
    text-transform: uppercase;
-   font-size: 15px;
+   font-size: 14px;
 }
 
 .nav-list {
@@ -45,18 +48,6 @@ body {
 
 #nav-bar a:hover {
    color: grey;
-}
-
-#nav-bar a::before {
-   content: '';
-   display: block;
-   height: 4px;
-   width: 100%;
-   background-color: rgb(133, 140, 156);
-   /* position: absolute; */
-   top: 0;
-   width: 0%;
-   transition: all ease-in-out 100ms;
 }
 
 #nav-bar a:hover::before{
@@ -77,6 +68,16 @@ body {
 
 #home-img {
    width: 100%;
+   /* height: 720px; */
+   margin-top: -30px;
+}
+
+.AirPods {
+   font-size: 64px;
+   color: #1d1d1f;
+   padding-top: 200px;
+   font-weight: 600;
+   font-style: normal;
 }
 
 .text-block {
