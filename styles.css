@@ -32,12 +32,12 @@ body {
 .nav-link {
    margin-right: 18px;
 }
-
+/* must fix padding on the nav bar */
 #nav-bar .nav-link {
    color: #F5F5F7;
    text-decoration: none;
-   text-transform: uppercase;
    font-size: 14px;
+   padding: 0px 10px;
 }
 
 .nav-list {
