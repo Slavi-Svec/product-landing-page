@@ -8,6 +8,9 @@ body {
    background: black;
    height: 44px;
    width: 100%;
+   top: 0;
+   position: sticky;
+
 }
 
 #header-img {
@@ -49,6 +52,7 @@ body {
 
 #home-img {
    height: 720px;
+   overflow: hidden;
 }
 
 .AirPods {
@@ -118,16 +122,22 @@ body {
 }
 
 .spec-image {
-   width: 130px;
+   width: 170px;
    right: 200px;
 }
 
 .spec-item {
    width: 50%;
    margin:10px;
+   /* border: 2px solid blue; */
+   display: flex;
+   flex-direction: column;
+   padding-left: 79px;
+
 }
-.spec-button{
+.spec-button {
    font-size: 17px;
+   width: 100px;
    line-height: 1.17649;
    font-weight: 400;
    border-radius: 18px;
@@ -144,6 +154,8 @@ body {
 
 .spec-list {
    list-style: none;
+   margin: 0;
+   padding: 0;
 
 }
 li {
@@ -171,7 +183,7 @@ li {
 }
 
 .apple-contact {
-   margin-top: 0px;
+   /* margin-top: 0px; */
 }
 
 .footer {
@@ -189,15 +201,11 @@ li {
 }
 /* TODO Fix MEDIA Query */
 
-/* @media screen and (max-width: 600px) {
-   .spec-wrapper {
+ @media screen and (max-width: 600px) {
+   #sec-3 {
       flex-direction: column;
-
+      align-items: center;
    }
+}
 
-   .product {
-      height: 350px;
-      padding: 0;
-      width: 100%;
-   }
-} */
+
