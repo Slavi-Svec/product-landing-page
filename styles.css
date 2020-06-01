@@ -40,11 +40,11 @@ body {
 }
 
 #nav-bar a:hover {
-   color: grey;
+   color: rgb(218, 209, 209);
 }
 
 #nav-bar a:hover {
-   color: grey;
+   color: rgb(206, 198, 198);
 }
 
 #home-img {
@@ -144,6 +144,7 @@ body {
 
 .spec-list {
    list-style: none;
+
 }
 li {
    padding: 4px 0;
@@ -152,32 +153,34 @@ li {
 #sec-4 {
    display: flex;
    justify-content: center;
-   /* flex-direction: column; */
+   background-color: #f5f4f3;
 }
-
 
 #form {
-   margin-top: 50px;
+   margin-top: 100px;
+   padding-bottom: 100px;
 }
 
-/* .label-information {
-} */
 .footer-container {
    display: flex;
    justify-content: center;
-   /* justify-content: space-around; */
-   /* padding: 34px 0 21px; */
+}
 
+.engrave-img {
+   width: 40px;
+}
+
+.apple-contact {
+   margin-top: 0px;
 }
 
 .footer {
-   color: #86868b;
    font-size: 12px;
+   background-color: #f5f4f3;
 }
-
+/* TODO: fix margin on this */
 .footer-copyright {
    padding: 0 200px 0 0;
- 
 }
 
 .footer-text {
