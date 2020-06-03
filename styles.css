@@ -94,6 +94,7 @@ body {
    font-weight: 400;
    letter-spacing: .011em;
    width: 75%;
+   text-align: center;
 }
 
 .section {
@@ -166,12 +167,17 @@ li {
    padding: 4px 0;
 }
 
-.container-info {
+.label-information {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+
+}
+
+.container-info {
    background-color: #f5f4f3;
+
 }
 
 .engrave-img {
@@ -185,6 +191,8 @@ li {
 
 .details2 {
    justify-content: center;
+   text-align: center;
+   width: 22%;
 }
 
 #form {
@@ -194,10 +202,9 @@ li {
 
 .footer-container {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
+   border-top: 1px black solid;
 }
-
-
 
 .apple-contact {
    padding-top: 0px;
@@ -206,14 +213,14 @@ li {
 .footer {
    font-size: 12px;
    background-color: #f5f4f3;
-}
-.footer-copyright {
-   padding: 0 200px 0 0;
+   padding: 10px 10px;
 }
 
 .footer-text {
    padding: 0 10px 0 0;
-   margin: 5px 7px 0 0;
+   margin-right: 6px;
+   height: 14px;
+   border-right: 1px black solid;
 }
 
  @media screen and (max-width: 600px) {
