@@ -11,7 +11,6 @@ body {
    top: 0;
    position: sticky;
    z-index: 9999;
-
 }
 
 #header-img {
@@ -75,22 +74,26 @@ body {
    transform: translate(-50%, -50%);
 }
 
-/* fix below code to center text correctly */
+.title-block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 .title {
    text-align: center;
-   vertical-align: middle;
-   padding-top: 80px;
-   margin-top:0px;
+   padding-top: 60px;
    font-size: 40px;
    letter-spacing: -.003em;
 }
 
-.title-block {
-   justify-content: center;
-   height: 70px;
-   position: relative;
-   color: black;
-   font-size: 18px;
+.sec-2-specs-description {
+   justify-content: left;
+   font-size: 21px;
+   line-height: 1.381;
+   font-weight: 400;
+   letter-spacing: .011em;
+   width: 75%;
 }
 
 .section {
@@ -98,29 +101,21 @@ body {
 }
 
 #sec-2 {
-   /* background-color:  #f5f4f3; */
-}
-
-/* TODO: align text at 80% */
-.sec-2-specs-description{
-   margin-top: 100px;
-   font-size: 16px;
-   text-align: center;
-   left: 80%;
-   right: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 #video {
-   margin-top: 400px;
+   margin-top: 200px;
    width: 70%;
    display: block;
    margin-left: auto;
    margin-right: auto;
 }
 
-
-
-#sec-3 {
+.sec-container {
    display: flex;
    justify-content: center;
 }
@@ -135,11 +130,9 @@ body {
    right: 200px;
 }
 
-
 .spec-item {
    width: 50%;
    margin:10px;
-   /* border: 2px solid blue; */
    display: flex;
    flex-direction: column;
    padding-left: 95px;
@@ -173,10 +166,25 @@ li {
    padding: 4px 0;
 }
 
-#sec-4 {
+.container-info {
    display: flex;
+   flex-direction: column;
    justify-content: center;
+   align-items: center;
    background-color: #f5f4f3;
+}
+
+.engrave-img {
+   width: 40px;
+   justify-content: center;
+}
+
+.details1 {
+   justify-content: center;
+}
+
+.details2 {
+   justify-content: center;
 }
 
 #form {
@@ -189,19 +197,16 @@ li {
    justify-content: center;
 }
 
-.engrave-img {
-   width: 40px;
-}
+
 
 .apple-contact {
-   /* margin-top: 0px; */
+   padding-top: 0px;
 }
 
 .footer {
    font-size: 12px;
    background-color: #f5f4f3;
 }
-/* TODO: fix margin on this */
 .footer-copyright {
    padding: 0 200px 0 0;
 }
@@ -210,15 +215,15 @@ li {
    padding: 0 10px 0 0;
    margin: 5px 7px 0 0;
 }
-/* TODO Fix MEDIA Query */
 
+ @media screen and (max-width: 600px) {
 
-
- @media screen and (max-width: 800px) {
-   #sec-3 {
+   .sec-container {
       flex-direction: column;
       align-items: center;
    }
+
 }
+
 
 
